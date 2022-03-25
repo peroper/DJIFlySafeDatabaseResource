@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C48E7BEE27EE01C5005CB1C3"
+               BlueprintIdentifier = "C48E7C2127EE10F3005CB1C3"
                BuildableName = "DJIFlySafeDatabaseResource.app"
-               BlueprintName = "DJIFlySafeDatabaseResource (iOS)"
+               BlueprintName = "DJIFlySafeDatabaseResource (macOS)"
                ReferencedContainer = "container:DJIFlySafeDatabaseResource.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C48E7BEE27EE01C5005CB1C3"
+            BlueprintIdentifier = "C48E7C2127EE10F3005CB1C3"
             BuildableName = "DJIFlySafeDatabaseResource.app"
-            BlueprintName = "DJIFlySafeDatabaseResource (iOS)"
+            BlueprintName = "DJIFlySafeDatabaseResource (macOS)"
             ReferencedContainer = "container:DJIFlySafeDatabaseResource.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C48E7BEE27EE01C5005CB1C3"
+            BlueprintIdentifier = "C48E7C2127EE10F3005CB1C3"
             BuildableName = "DJIFlySafeDatabaseResource.app"
-            BlueprintName = "DJIFlySafeDatabaseResource (iOS)"
+            BlueprintName = "DJIFlySafeDatabaseResource (macOS)"
             ReferencedContainer = "container:DJIFlySafeDatabaseResource.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C48E7C2527EE10F3005CB1C3 /* DJIFlySafeDatabaseResourceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E7C1527EE10F2005CB1C3 /* DJIFlySafeDatabaseResourceApp.swift */; };
-		C48E7C2627EE10F3005CB1C3 /* DJIFlySafeDatabaseResourceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E7C1527EE10F2005CB1C3 /* DJIFlySafeDatabaseResourceApp.swift */; };
 		C48E7C2727EE10F3005CB1C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E7C1627EE10F2005CB1C3 /* ContentView.swift */; };
-		C48E7C2827EE10F3005CB1C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E7C1627EE10F2005CB1C3 /* ContentView.swift */; };
 		C48E7C2927EE10F3005CB1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48E7C1727EE10F3005CB1C3 /* Assets.xcassets */; };
-		C48E7C2A27EE10F3005CB1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48E7C1727EE10F3005CB1C3 /* Assets.xcassets */; };
 		C48E7C3427EE113B005CB1C3 /* DJIFlySafeDatabaseResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C48E7C3327EE113B005CB1C3 /* DJIFlySafeDatabaseResource.bundle */; };
-		C48E7C3527EE113B005CB1C3 /* DJIFlySafeDatabaseResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C48E7C3327EE113B005CB1C3 /* DJIFlySafeDatabaseResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,20 +18,12 @@
 		C48E7C1627EE10F2005CB1C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C48E7C1727EE10F3005CB1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48E7C1C27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJIFlySafeDatabaseResource.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48E7C2227EE10F3005CB1C3 /* DJIFlySafeDatabaseResource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJIFlySafeDatabaseResource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E7C2427EE10F3005CB1C3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		C48E7C3327EE113B005CB1C3 /* DJIFlySafeDatabaseResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DJIFlySafeDatabaseResource.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C48E7C1927EE10F3005CB1C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C48E7C1F27EE10F3005CB1C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				C48E7C1C27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource.app */,
-				C48E7C2227EE10F3005CB1C3 /* DJIFlySafeDatabaseResource.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C48E7C1B27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource (iOS) */ = {
+		C48E7C1B27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C48E7C2D27EE10F3005CB1C3 /* Build configuration list for PBXNativeTarget "DJIFlySafeDatabaseResource (iOS)" */;
+			buildConfigurationList = C48E7C2D27EE10F3005CB1C3 /* Build configuration list for PBXNativeTarget "DJIFlySafeDatabaseResource" */;
 			buildPhases = (
 				C48E7C1827EE10F3005CB1C3 /* Sources */,
 				C48E7C1927EE10F3005CB1C3 /* Frameworks */,
@@ -97,26 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = "DJIFlySafeDatabaseResource (iOS)";
+			name = DJIFlySafeDatabaseResource;
 			productName = "DJIFlySafeDatabaseResource (iOS)";
 			productReference = C48E7C1C27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource.app */;
-			productType = "com.apple.product-type.application";
-		};
-		C48E7C2127EE10F3005CB1C3 /* DJIFlySafeDatabaseResource (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C48E7C3027EE10F3005CB1C3 /* Build configuration list for PBXNativeTarget "DJIFlySafeDatabaseResource (macOS)" */;
-			buildPhases = (
-				C48E7C1E27EE10F3005CB1C3 /* Sources */,
-				C48E7C1F27EE10F3005CB1C3 /* Frameworks */,
-				C48E7C2027EE10F3005CB1C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DJIFlySafeDatabaseResource (macOS)";
-			productName = "DJIFlySafeDatabaseResource (macOS)";
-			productReference = C48E7C2227EE10F3005CB1C3 /* DJIFlySafeDatabaseResource.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,9 +100,6 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					C48E7C1B27EE10F3005CB1C3 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					C48E7C2127EE10F3005CB1C3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -150,8 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C48E7C1B27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource (iOS) */,
-				C48E7C2127EE10F3005CB1C3 /* DJIFlySafeDatabaseResource (macOS) */,
+				C48E7C1B27EE10F3005CB1C3 /* DJIFlySafeDatabaseResource */,
 			);
 		};
 /* End PBXProject section */
@@ -166,15 +132,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C48E7C2027EE10F3005CB1C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C48E7C2A27EE10F3005CB1C3 /* Assets.xcassets in Resources */,
-				C48E7C3527EE113B005CB1C3 /* DJIFlySafeDatabaseResource.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -184,15 +141,6 @@
 			files = (
 				C48E7C2727EE10F3005CB1C3 /* ContentView.swift in Sources */,
 				C48E7C2527EE10F3005CB1C3 /* DJIFlySafeDatabaseResourceApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C48E7C1E27EE10F3005CB1C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C48E7C2827EE10F3005CB1C3 /* ContentView.swift in Sources */,
-				C48E7C2627EE10F3005CB1C3 /* DJIFlySafeDatabaseResourceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,58 +317,6 @@
 			};
 			name = Release;
 		};
-		C48E7C3127EE10F3005CB1C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joey.MyTest.DJIFlySafeDatabaseResource.DJIFlySafeDatabaseResource;
-				PRODUCT_NAME = DJIFlySafeDatabaseResource;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		C48E7C3227EE10F3005CB1C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joey.MyTest.DJIFlySafeDatabaseResource.DJIFlySafeDatabaseResource;
-				PRODUCT_NAME = DJIFlySafeDatabaseResource;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -433,20 +329,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C48E7C2D27EE10F3005CB1C3 /* Build configuration list for PBXNativeTarget "DJIFlySafeDatabaseResource (iOS)" */ = {
+		C48E7C2D27EE10F3005CB1C3 /* Build configuration list for PBXNativeTarget "DJIFlySafeDatabaseResource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C48E7C2E27EE10F3005CB1C3 /* Debug */,
 				C48E7C2F27EE10F3005CB1C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C48E7C3027EE10F3005CB1C3 /* Build configuration list for PBXNativeTarget "DJIFlySafeDatabaseResource (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C48E7C3127EE10F3005CB1C3 /* Debug */,
-				C48E7C3227EE10F3005CB1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
